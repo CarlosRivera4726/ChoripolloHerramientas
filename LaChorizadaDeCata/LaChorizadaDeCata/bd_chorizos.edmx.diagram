@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3b92bc319d5b48ed9dc7842a13c03fb8" Name="Diagram1">
+        <EntityTypeShape EntityType="bd_chorizosModel.DetalleFactura" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_chorizosModel.Factura" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_chorizosModel.Producto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_chorizosModel.Proveedor" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="bd_chorizosModel.Usuario" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="bd_chorizosModel.FK__DetalleFa__factu__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="bd_chorizosModel.FK__DetalleFa__produ__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="bd_chorizosModel.FK__Factura__usuario__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="bd_chorizosModel.FK__Producto__provee__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
